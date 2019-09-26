@@ -39,8 +39,8 @@ Follow the following steps ONLY using your command line:
     cd..
 
 10. Delete the assignments folder.
-    cd Desktop
-    rm -r 
+    cd my_first_direc directory
+    rm -r assignments
 
 11. Go up to the Desktop directory.
     cd ..
@@ -64,7 +64,7 @@ Follow the following steps ONLY using your command line:
     touch foo.js
 
 4. Open the file with a text editor, (Atom/VSCode)
-    open foo.js
+    code foo.js
 
 5. Add the following text to the file: console.log('hello')
     console.log('hello')
@@ -73,7 +73,7 @@ Follow the following steps ONLY using your command line:
     Command S
 
 7. Open the file again with a text editor, (Atom/VSCode)
-    open foo.js
+    code foo.js
 
 8. Add the following in a new line: hellohellohello
     hellohellohello
