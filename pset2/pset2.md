@@ -7,7 +7,7 @@ In this problem, you will be downloading some files from online, then creating a
 2. Once the repository has been downloaded, go ahead and unzip it.
 
 3. Achieve the following structure ONLY using command line:
-   
+ ```  
 ~/Desktop/pset2
     /assets
         /images
@@ -21,8 +21,8 @@ In this problem, you will be downloading some files from online, then creating a
             foo.js
     app.js
     hello.html
-
-
+```
+```
 cd desktop  
     mkdir pset2
     cd pset2
@@ -38,10 +38,13 @@ cd desktop
     mv stuff/foo.js pset2/assets/src
     mv stuff/apps.js pset2/assets
     mv stuff/hello.html pset2/assets
-    
-4. Open `hello.html` using a code editor and change "SOME_CLASS" to "Full Stack: Nights & Weekends". Save it.
-    code hello.html
+ ```
 
+4. Open `hello.html` using a code editor and change "SOME_CLASS" to "Full Stack: Nights & Weekends". Save it.
+    ```
+    code hello.html
+    ```
+    
 5. You should have the following commits:
 
 - git initialized
